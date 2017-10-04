@@ -1,0 +1,381 @@
+
+
+
+$primary: #0eb493;
+$dark: #062033;
+$light: #868e95;
+
+body{
+	height: 100%;
+	width: 100%;
+
+	h1, h2, h3,{
+		font-family: 'Open Sans', sans-serif;
+		color: $primary;
+	}
+
+	h2{
+		font-size: 28px;
+		font-weight: 800;
+		text-transform: uppercase;
+	    line-height: 1.2;
+	    text-align: center;
+	}
+
+	h3{
+		font-size: 20px;
+		line-height: 1.2;
+		text-align: left;
+	}
+
+	p{
+		font-size: 13px;
+		line-height: 1.615;
+		font-family: 'Open Sans', sans-serif;
+		color: $light;
+
+	}
+}
+
+.section-content{
+	padding: 70px 50px 0;
+}
+
+// INTRO SECTION
+
+.navbar{
+	margin:0;
+	background: #0d2828;
+	opacity: .7;
+	border: none;
+	padding: 15px;
+}
+
+#navbar{
+	li{
+		margin:0;
+
+		&:hover{
+			border-bottom: 1px solid #32b0ee;
+		}
+
+		a{
+			color: #fff;
+			padding-left: 30px;
+		}
+	}
+}
+
+.intro{
+	position:relative;
+	margin: 0;
+	height: 100vh;
+	min-height: 600px;
+	background: url(../img/header_bg.png) no-repeat center;
+}
+
+.intro-row{
+	margin-top: 300px;
+	padding-bottom: 52px;
+
+	h1{
+		color: #fff;
+		font-size: 62px;
+		font-weight: 300;
+	}
+}
+
+.sup-p{
+	font-size: 48px;
+	font-weight: 300;
+	color: #fff;
+	span{
+		color: #0a8760;
+	}
+}
+
+.sub-p{
+	font-size: 18px;
+	font-weight: 300;
+	color: #fff;
+
+	&::before{
+		content: '';
+		display: inline-block;
+		width: 30px;
+		height: 1px;
+		background-color: #0a8760;
+		vertical-align: middle;
+		margin-right: 33px;
+	}
+
+	&::after{
+		content: '';
+		display: inline-block;
+		width: 30px;
+		height: 1px;
+		background-color: #0a8760;
+		vertical-align: middle;
+		margin-left: 33px;
+	}
+}
+
+.social{
+	margin-top: 50px;
+	margin-bottom: 50px;
+
+	i{
+		color: $light;
+		font-size: 20px;
+		padding: 0 8px;
+
+		&:hover{
+			color: #fff;
+		}
+	}
+}
+
+
+// FEATURES SECTION
+
+#features{
+	background-color: #f4f7f9;
+}
+
+.divi{
+	background: url(../img/feature.png) no-repeat center;
+	width: 230px;
+	height: 15px;
+	position:relative;
+	top: 20%;
+	left: 41%;
+}
+
+.item-content{
+	margin-top:100px;
+
+	h3{
+		color: $dark;
+	}
+
+	i{
+		color: $primary;
+	}
+
+	p{
+		text-align: left;
+	}
+}
+
+
+// WORKS SECTION
+#works{
+	p{
+		margin: 30px 0 35px 0;
+	}
+}
+
+.simplefilter{
+	li{
+		color: $dark;
+		font-weight:800;
+		font-size: 14px;
+	}
+
+	.btn{
+		padding:10px 15px;
+
+		&:hover{
+			color:#fff;
+			background-color: $primary;
+			border-radius: 20px;
+		}
+
+		&:active{
+			color:#fff;
+			background-color: $primary;
+			border: 1px solid $dark;
+			border-radius: 20px;
+		}
+	}
+}
+
+.filtr-container{
+	.filtr-item{
+		margin:0;
+		padding:0;
+	}
+}
+
+
+// TEAM SECTION
+
+#team{
+	.divi{
+	background: url(../img/feature.png) no-repeat center;
+	width: 230px;
+	height: 15px;
+	position:relative;
+	top: 20%;
+	left: 39%;
+	}
+
+	p{
+		margin: 30px 0 35px 0;
+	}
+
+	img{
+		margin-left:0;
+	}
+
+}
+
+.team-heading{
+	h3{
+		text-align:center;
+	}
+
+	span{
+		font-size: 18px;
+		color: $primary;
+		padding-top: 20px;
+
+	}
+}
+
+// FACTS SECTION
+
+#facts{
+
+	background: url(../img/fact_bg.png) no-repeat center;
+	background-position: cover;
+	margin-top: 70px;
+	padding-bottom: 60px;
+
+	.divi{
+	background: url(../img/divi.png) no-repeat center;
+	width: 230px;
+	height: 15px;
+	position:relative;
+	top: 20%;
+	left: 40%;
+	}
+
+	span{
+		font-size: 60px;
+		font-weight: 700;
+		color: #fff;
+	}
+
+	p{
+		font-size: 18px;
+		font-weight: 400;
+		color: #fff;
+	}
+}
+
+.fuct-item{
+	margin-top: 30px;
+
+	img{
+		margin-bottom: 55px;
+	}
+
+}
+
+// CONTACT SECTION
+ #contact{
+	padding-top: 100px;	
+	padding-bottom: 130px;
+ }
+
+.discuss{
+	p{
+		margin: 30px 0 80px 0; 
+	}
+}
+
+.form-control{
+	width: 100%;
+	border: none;
+	margin-bottom: 20px;
+}
+
+.fa-envelope{
+	color: $primary;
+}
+
+.networks{
+	li{
+		list-style: none;
+		margin-bottom: 20px;
+
+		&:first-child{
+			margin-top:20px;
+		}
+
+		a{
+			color: $light;
+
+			&:hover{
+				color: darken($light, 20%);
+				transition: .4s;
+			}
+		}
+	}
+}
+
+//FOOTER SECTION
+
+#main-footer{
+	padding: 100px 0 120px 0;
+	background: $primary;
+	border-top:5px solid $dark;
+	
+	h4{
+		font-size: 18px;
+		color: #fff;
+		font-weight: 700;
+	}
+
+	p{
+		color: #fff !important;
+		margin-top: 40px;
+	}
+}
+
+.submit{
+
+	button{
+		background: $primary;
+		border: 2px solid #fff;
+		color: #fff;
+		font-size: 18px;
+
+		&:hover{
+			background: darken($primary, 20%);
+			color: #fff;
+			border: 2px solid #fff;
+			transition: .3s;
+		}
+	}
+
+	input{
+		margin-top: 40px;
+	}
+}
+
+.towcolums{
+	display: block;
+	float: left;
+	margin-top: 40px;
+	line-height: 1.6em;
+	list-style-type: none;
+	color: #fff;
+}
+
+.themecurve{
+	margin-top: 40px;
+}
+
+@import 'vendor/_hover.scss';
